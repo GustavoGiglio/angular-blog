@@ -1,27 +1,53 @@
-# AngularBlog
+# Tech Blog
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.2.6.
+![Alt text](image.png)
 
-## Development server
+Este projeto é um Blog de Tecnologias desenvolvido utilizando o framework Angular. Foi criado como parte do desafio proposto pela Digital Innovation One (DIO) para demonstrar habilidades no desenvolvimento web com Angular.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+## Visão Geral
 
-## Code scaffolding
+O Blog de Tecnologias é uma aplicação web que permite aos usuários acessar artigos relacionados a diferentes tecnologias. Os artigos são exibidos em cards, proporcionando uma visão geral do conteúdo. Os usuários podem clicar em um artigo para obter mais detalhes, incluindo uma imagem de capa, título e descrição completa.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## Funcionalidades
 
-## Build
+- Visualização de artigos: Os usuários podem visualizar uma lista de artigos com informações resumidas.
+- Detalhes do artigo: Os usuários podem clicar em um artigo para ver mais detalhes, incluindo uma imagem de capa, título e descrição completa.
+- Navegação: A aplicação possui navegação que permite aos usuários explorar diferentes seções e artigos.
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+## Estrutura do Projeto
 
-## Running unit tests
+O projeto é estruturado de forma modular, com diferentes componentes para representar os elementos da interface do usuário:
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+- `app-menu-title`: Componente para exibir o título ou cabeçalho do menu.
+- `app-big-card`: Componente para exibir um card de artigo com informações resumidas.
+- `app-small-card`: Componente para exibir um card de artigo menor com informações resumidas.
+- `app-menu-bar`: Componente para exibir o menu de navegação.
 
-## Running end-to-end tests
+Além disso, o projeto inclui rotas gerenciadas pelo Angular Router para possibilitar a navegação entre diferentes páginas e visualização de artigos.
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+## Como Executar o Projeto
 
-## Further help
+Para executar este projeto em sua máquina local, siga os passos abaixo:
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+1. Certifique-se de que você possui o Angular CLI instalado. Caso contrário, instale-o executando o seguinte comando:
+   
+   ```bash
+   npm install -g @angular/cli
+
+2. Clone este repositório para sua máquina:
+   
+   ```bash
+   git clone <URL_do_repositorio>
+   cd blog-tecnologias-angular
+
+3. Instale as dependências do projeto:
+   
+   ```bash
+   npm install
+   
+4. Inicie a aplicação: 
+
+   ````bash
+   ng serve
+    
+5. Acesse a aplicação em seu navegador no seguinte endereço: http://localhost:4200/
