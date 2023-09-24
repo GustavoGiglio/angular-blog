@@ -14,6 +14,12 @@ O Blog de Tecnologias é uma aplicação web que permite aos usuários acessar a
 - Detalhes do artigo: Os usuários podem clicar em um artigo para ver mais detalhes, incluindo uma imagem de capa, título e descrição completa.
 - Navegação: A aplicação possui navegação que permite aos usuários explorar diferentes seções e artigos.
 
+## Tecnologias Utilizadas
+
+- **Angular**: Um poderoso framework de desenvolvimento web para construir aplicativos modernos e escaláveis.
+- **HTML5 e CSS3**: Utilizados para estruturação e estilização do conteúdo.
+- **TypeScript**: Linguagem de programação que estende o JavaScript e fornece tipos estáticos opcionais.
+
 ## Estrutura do Projeto
 
 O projeto é estruturado de forma modular, com diferentes componentes para representar os elementos da interface do usuário:
